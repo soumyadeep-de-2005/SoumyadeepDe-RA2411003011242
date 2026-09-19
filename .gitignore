@@ -1,28 +1,40 @@
-# Byte-code
+# Byte-code & Compilation
 *.class
+**/*.class
 
 # Build / Output directories
 bin/
+**/bin/
 target/
+**/target/
 build/
+**/build/
 out/
+**/out/
 
 # IDE and Editors
 .idea/
+**/.idea/
 .vscode/
+**/.vscode/
 *.iml
+**/*.iml
 *.ipr
 *.iws
 
 # OS files
 .DS_Store
+**/.DS_Store
 Thumbs.db
+**/Thumbs.db
 
-# Secrets / Environment
+# Secrets & Environment
 .env
 *.pem
 *.key
 
-# Temporary files
+# Logs & Temporary Files
 *.log
+**/*.log
 *.tmp
+**/*.tmp
